@@ -1,4 +1,4 @@
-export default function comments(action, state = []) {
-    console.log(action, state);
+export default function comments(state = [], action) {
+    console.log(state, action);
     return state;
 }

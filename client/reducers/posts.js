@@ -1,4 +1,4 @@
-export default function posts(action, state = []) {
-    console.log(action, state);
+export default function posts(state = [], action) {
+    console.log(state, action);
     return state;
 }
