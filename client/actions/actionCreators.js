@@ -1,4 +1,4 @@
-const actionTypes = {
+export const actionTypes = {
     incrementLikes: 'INCREMENT_LIKES',
     addComment: 'ADD_COMMENT',
     removeComment: 'REMOVE_COMMENT',
@@ -31,10 +31,10 @@ function removeComment(postId, index) {
     };
 }
 
-const actions = {
+const actionCreators = {
     increment,
     addComment,
     removeComment,
 };
 
-export default actions;
+export default actionCreators;
